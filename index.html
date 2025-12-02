@@ -3,45 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- site title -->
-    <link rel="icon" href="./pictures/svg/logo.svg" />
-    <!--css -->
+    <!-- css -->
     <link rel="stylesheet" href="./css/main.css" />
-    <!-- box icon -->
+    <!-- boxicon link -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <title>Cristmas</title>
+
+    <!-- site icon -->
+    <link rel="icon" href="./pictures/svg/logo.svg" />
+    <title>Christmas</title>
   </head>
   <body>
     <!-- header -->
     <header>
-      <nav class="container">
-        <a href="./index.html" class="logo">
-          <img src="./pictures/svg/logo.svg" alt="Logo" />
-          <h1 class="logo-title">Christmas</h1>
-        </a>
-        <div class="nav-bar">
-          <div class="nav-bar-links">
-            <a href="#">Home</a>
-            <a href="#">Celebrate</a>
-            <a href="#">Gifts</a>
-            <a href="#">New</a>
-          </div>
-          <div class="nav-bar-btns">
-            <button id="nav-bar-mode-btn">
-              <i class="bx bx-moon"></i>
-            </button>
-            <button id="nav-bar-menu-btn"></button>
+      <!-- nav -->
+      <nav>
+        <div class="nav container">
+          <a class="log" href="./index.html">
+            <img src="./pictures/svg/logo.svg" alt="" />
+            Christmas
+          </a>
+
+          <div class="nav-bar">
+            <div id="nav-links">
+              <div class="top-drop-bar">
+                <img
+                  src="./pictures/main-pictures/nav.png"
+                  alt=""
+                  class="res-nav-link-img"
+                />
+                <button class="nav-bar-btn" id="close-drop-bar-btn">
+                  <i class="bx bx-x"></i>
+                </button>
+              </div>
+              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link">Celebrate</a>
+              <a href="#" class="nav-link">Gifts</a>
+              <a href="#" class="nav-link">New</a>
+            </div>
+
+            <div class="nav-bar-btns">
+              <button class="nav-bar-btn" id="theme-btn">
+                <i id="theme-icon" class="bx bx-moon"></i>
+              </button>
+              <button class="nav-bar-btn" id="drop-bar-btn">
+                <i class="bx bx-grid-alt"></i>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
     </header>
-    <!-- main -->
-    <main></main>
-    <!-- footer -->
-    <footer></footer>
     <script type="module" src="./js/web.js"></script>
   </body>
 </html>
